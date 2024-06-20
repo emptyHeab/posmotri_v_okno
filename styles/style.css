@@ -42,7 +42,7 @@ ol {
 }
 
 .content {
-  margin-bottom: 115px;
+  margin-bottom: 120px;
   width: 1140px;
   display: flex;
   align-self: center;
@@ -51,7 +51,6 @@ ol {
 }
 
 .search-form {
-  margin-bottom: 4px;
   margin-left: 30px;
   display: flex;
   flex-direction: row;
@@ -60,8 +59,6 @@ ol {
 }
 
 .content__list {
-  margin-top: 26px;
-  margin-bottom: 5px;
   height: 298px;
   display: flex;
   flex-direction: column;
@@ -76,8 +73,7 @@ ol {
 }
 
 .result__video-container {
-  margin-right: 30px;
-  margin-left: 30px;
+  margin:0 30px 0;
   height: 386px;
   width: 711px;
   position: relative;
@@ -123,6 +119,7 @@ ol {
 }
 
 .title {
+  margin-bottom: 26px;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
